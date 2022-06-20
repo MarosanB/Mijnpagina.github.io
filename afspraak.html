@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta name="afspraak" content="afspraak gegevens met de tandarts">
+  <meta charset="utf-8">
+  <title>Tandartsafspraak</title>
+</head>
+<body style="text-align:center">
+  <h1>Tandartsafspraak</h1>
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean viverra nisl blandit augue fringilla ultricies.
+    Integer tempus elit in eros volutpat, vitae condimentum lorem eleifend.
+    Integer mollis maximus orci, vel cursus erat. Nam ut ante ipsum. Aenean vel erat lorem.
+    Cras hendrerit sollicitudin mi, non mollis tellus tempor vitae. Aliquam erat volutpat.
+    Etiam tincidunt euismod massa eu consequat.</p>
+    <p>Etiam eget quam porttitor, aliquam ante efficitur, gravida sem. Aliquam est odio, porttitor nec ultricies ac,
+    euismod nec nisi. Morbi in malesuada neque. Mauris ut nisi elit. Donec malesuada felis vitae ornare sollicitudin.
+    In eget malesuada leo. Sed in sollicitudin mauris, id dignissim risus.
+    </p>
+    <hr>
+    <figure>
+    <img src="roodborst.jpg" alt="Roodborst" title="Roodborst" width="300">
+    <img src="roodborst2.jpg" alt="Roodborst" title="Roodborst" width="300">
+    <img src="roodborst3.jpg" alt="Roodborst" title="Roodborst" width="300">
+    <figcaption>Mooi vogeltje</figcaption>
+  </figure><br>
+  <form action="https://formspree.io/f/xpzbnzjb" method="post">
+    <fieldset>
+      <table style=";margin-left:auto;margin-right:auto;" border="2" bgcolor="orange">
+        <caption>Persoonlijke gegevens</caption>
+        <tr>
+          <td>Uw naam:</td>
+          <td><input type="text" name="naam" placeholder="Uw naam"></td>
+        </tr>
+      <tr>
+        <td>Uw adres</td>
+        <td><input type="text" name="adres" placeholder="Straatnaam en huisnummer"></td>
+      </tr>
+      <tr>
+        <td>Uw leeftijd</td>
+        <td><input type="number" name="leeftijd" min="1" max="100" placeholder="uw leeftijd"></td>
+      </tr>
+      <tr>
+        <td>Uw wachtwoord</td>
+        <td><input type="password" name="wachtwoord" placeholder="wachtwoord"></td>
+      </tr>
+      <tr>
+        <td>Uw e-mailadres</td>
+        <td><input type="email" name="emailadres" placeholder="emailadres"></td>
+      </tr>
+      <tr>
+        <td>Uw webpagina</td>
+        <td><input type="url" name="webadres" placeholder="webpagina"></td>
+      </tr>
+      <tr>
+        <td>Uw telefoonnummer</td>
+        <td><input type="tel" name="telefoonnummer" placeholder="telefoonnummer"></td>
+      </tr>
+      <tr>
+        <td>Uw geboortedatum</td>
+        <td><input type="date" name="datum" max="2080-12-31"></td>
+      </tr>
+      <tr>
+        <td>Uw geslacht</td>
+        <td>
+          <input type="radio" name="geslacht" value="man" checked>Man
+          <input type="radio" name="geslacht" value="vrouw">Vrouw
+          <input type="radio" name="geslacht" value="anders">Anders
+          <input type="hidden" name="nog levend" value="Immortal-Warrior">
+          </td>
+    </table>
+    </fieldset>
+    <hr>
+    <fieldset>
+      <legend><strong>Beschrijving van klachten</strong></legend>
+      <input type="checkbox" name="klachten" value="ja">Hoofdpijn
+      <input type="checkbox" name="klachten" value="ja">Buikpijn
+      <input type="checkbox" name="klachten" value="ja">Duizelig
+      <input type="checkbox" name="klachten" value="ja">Tintelend gevoel
+      <input type="checkbox" name="klachten" value="ja">Geen eetlust
+      <br>
+      <input type="file" name="bijlage" accept="image/jpg,image/gif,image/jpeg,image/x-png">
+    </fieldset>
+    <hr>
+    <fieldset>
+      <legend><strong>Toelichting van de klachten</strong></legend>
+      <br>
+      <textarea name="toelichting" rows="15" cols="80" placeholder="uw toelichting"></textarea>
+    </fieldset>
+    <hr>
+    <input type="date" name="datum" max="2080-12-31">
+    <br>
+    <button type="submit" name="Verzendknop"><strong>Verzend</strong></button>
+  </form>
+</body>
+</html>
